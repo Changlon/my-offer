@@ -1,0 +1,411 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的简历</title> 
+    <link rel="stylesheet" href="./src/css/index.css">     
+
+</head>
+<body>  
+
+
+
+    <div id="app"></div>
+
+    <div id="root">
+        <div class="wrap">
+            <!-- 左边栏 --> 
+            <div class="left-box">
+                <!-- 专业 -->
+                <div class="subject">
+                    <div class="avatar">
+                        <img src="http://thirdwx.qlogo.cn/mmopen/iauKn7tQYHKvnV56bdJmp4Pia9icOcz6JFxpOwia6qbhHxib8fcwQBxhtDFvL979oyx9HZ6LOiaxDj0EZZnDib2MIuCJuWogiaaoxN9q/132" alt="头像" title="头像">
+                    </div> 
+                    <div class="title">
+                        <p class="text-red text-font-size-lg">软 件 工 程</p> 
+                        <p class="text-dark-blue">SOFTWARE</p>
+                        <p class="text-dark-blue">ENGINEERING</p> 
+                    </div>
+                </div> 
+                <!-- 教育，工作内容 -->
+                <div class="content">
+
+                    <!-- 模块一 教育经历 -->
+                    <div class="section">
+                        <h2 class="section-title text-white text-letter-lg">教育经历</h2> 
+                        <div class="section-desc text-white text-smer">EDUCATION BACKGROUND</div> 
+                        
+                        <!-- 一行数据 -->
+                        <div class="section-segment"> 
+                            <div class="segment-bar">
+                                <div class="segment-icon"></div> 
+                                <div class="segment-title text-font-size-lg">上海蜜汁大学</div>
+                            </div> 
+                            <div class="segment-content">
+                                    <p >软件工程 | 本科 &nbsp;&nbsp;<span class="text-grey text-font-size-sm text-smer"> 2019.09 - 2023.07</span></p> 
+                            </div>
+
+                        </div>
+
+                        <!-- 第二行数据 -->
+                        <div class="section-segment"> 
+                            <div class="segment-bar">
+                                <div class="segment-icon"></div> 
+                                <div class="segment-title text-font-size-lg">主修课程</div>
+                            </div> 
+                            <div class="segment-content">
+                                    <p class="text-grey text-font-size-sm text-smer"> 
+                                        C/C++程序设计，Java程序设计，数据结构，计算方法，编译原理，软件工程，操作系统原理，数据库系统原理，网络数据库等。
+                                    </p>
+
+                                    <p class="text-red text-font-size-sm">GPA: 3.8/4.0 在校年均保持排名位于专业前10%</p>
+                            </div>
+
+                        </div>
+
+                           <!-- 竖线 -->
+                        <div class="line"></div> 
+                
+                    </div>
+
+
+                    
+                    <div class="space-xs"></div> 
+
+
+
+
+                    <!-- 模块二 工作经历 -->
+                    <div class="section">
+                        <h2 class="section-title text-white text-letter-lg">工作经历</h2> 
+                        <div class="section-desc text-white text-smer">WORK EXPERIENCE</div> 
+                        
+                        <!-- 一行数据 -->
+                        <div class="section-segment"> 
+                            <div class="segment-bar">
+                                <div class="segment-icon"></div> 
+                                <div class="segment-title text-font-size-lg">觅知办公有限公司</div>
+                            </div> 
+                            <div class="segment-content">
+                                    <p >Java 工程师 &nbsp;&nbsp;<span class="text-grey text-font-size-sm text-smer"> 202009 - 2021.10</span></p> 
+                            </div>
+
+                        </div>
+
+                        <!-- 第二行数据 -->
+                        <div class="section-segment"> 
+                            <div class="segment-bar">
+                                <div class="segment-icon"></div> 
+                                <div class="segment-title text-font-size-lg">主要职责</div>
+                            </div> 
+                            <div class="segment-content">
+                                    <p class="text-grey text-font-size-sm text-smer"> 
+                                      1.根据产品需求，完成项目的任务分析设计，完成详细设计和编码，确保项目的进度和质量。
+                                    </p>
+
+                                    <p class="text-grey text-font-size-sm text-smer"> 
+                                       2.负责后端API的设计和开发维护，从构思到执行，编写架构性好的后端代码。
+                                    </p>
+
+                                    <p class="text-grey text-font-size-sm text-smer"> 
+                                        3.协助其他的人员的开发测试，完成测试阶段的BUG修复。
+
+                                    </p>
+
+                            </div>
+
+                        </div>
+
+                           <!-- 竖线 -->
+                        <div class="line"></div> 
+                
+                    </div>
+
+
+                </div>  
+         
+
+                <!-- 个人信息 -->
+                <div class="self">
+                    <p class="text-xs text-letter-xs text-white text-font-size-lg">PROFILE</p>
+                    <p class="text-xs text-letter-xs text-white text-font-size-lg">周昌龙</p>
+                    <p class="text-right text-sm  text-white text-font-size-lg">男</p>
+                    <p class="text-right text-sm  text-white text-font-size-lg">江苏</p>
+                    <p class="text-right text-sm  text-white text-font-size-lg">2000.11.14</p>
+                </div> 
+            </div>
+
+
+            <!-- 右边栏 -->  
+            <div class="right-box">
+                <!-- 联系方式 -->
+                <div class="contact">
+                    <div class="contact-title text-xs text-red text-font-size-lg">联系方式 / 社交媒体</div> 
+                    
+                    
+
+                    <!-- 信息条 flex布局 --> 
+                    <div class="info-box">
+                         <!-- 邮箱 -->
+                        <div class="info-box text-grey text-font-size-sm text-smer">
+                            <span class="vertical-block"></span> 
+                            <span>邮箱: thinker_changlon@163.com</span>
+                        </div>
+
+                        <!-- 电话 -->
+                        <div class="info-box text-grey text-font-size-sm text-smer">
+                            <span class="vertical-block"></span> 
+                            <span>电话: 17854161869</span>
+                        </div>
+
+                        <!-- 微信 -->
+                        <div class="info-box text-grey text-font-size-sm text-smer">
+                            <span class="vertical-block"></span> 
+                            <span>微信: buffonest</span>
+                        </div>
+
+                         <!-- ins -->
+                         <div class="info-box text-grey text-font-size-sm text-smer">
+                            <span class="vertical-block"></span> 
+                            <span>Instagram: Changlon</span>
+                        </div>
+                    </div>
+
+
+
+                </div>  
+                <!-- 关于我 -->
+                <div class="about">
+                    <h3 class="text-red text-letter-xs">ABOUT ME</h3>
+                    <div class="space-sm"></div>
+                    <p class="text-grey text-font-size-xs text-smer text-letter-lg">
+                            软件工程专业背景，有丰富的软件开发经验，扎实的技术基础；
+                            工作细致认真，积极主动，有耐心，严谨；有较强的逻辑思维能力，善于分析，
+                            归纳，解决问题；有较强的沟通技巧及团队合作精神，组织协调能力，较强的责任感及进取精神；
+                            对技术有浓厚兴趣，喜欢并不断学习新技术。
+
+                    </p>
+
+                </div>   
+
+                <!-- MyChunk 组件复用 -->  
+                
+                <div class="skills-wrap skill-pro"></div>
+                <div class="skills-wrap skill-lan"></div>
+                <div class="skills-wrap skill-awards"></div>
+                <div class="skills-wrap skill-hobbies"></div> 
+                
+            </div>
+        </div>
+        
+
+        <div class="comment-wrap"></div>
+
+
+    </div>
+
+    <!-- react库 -->
+    
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <!-- <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script> -->
+    <!-- jsx解析 -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> 
+
+    <!-- axios -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.21.1/axios.min.js"></script>
+
+
+    <!-- 针对有右半部分的组件复用 -->
+    <script type="text/babel" > 
+            const e  = React.createElement    
+                    /**封装进度条*/
+                    class MyProgress extends React.Component {  
+                        constructor(props) { 
+                            super(props) 
+                    
+                            if(props.mySkills) {
+                                this.state = {
+                                    skills:props.mySkills 
+                                }   
+                            }else{
+                                this.state = {
+                                    progress:props.progress || 0 ,// 0 -1 之间的数，表示进度, 
+                                    progressName :props.name || ''
+                                    
+                                }
+                            }
+                        } 
+                    
+                        render() { 
+                    
+                            let  renderHTML 
+                            
+                            if(this.state.skills) { 
+                                renderHTML = this.state.skills.map(({progress,name})=>(
+                                    <div className="process-box" key={name}>
+                                        <div className="process-wrap">
+                                            <div className="process-content" style={{width:(120 * progress) + 'px'}}></div>
+                                        </div>
+                                        <div className="process-name text-font-size-lg text-letter-lg text-sm">{name}</div>
+                                    </div>
+                                ))
+                    
+                            }else{
+                                const progress = this.state.progress  
+                                const progressName = this.state.progressName  
+                                const width =  {
+                                    width:(120 * progress) +'px'
+                                }
+                    
+                                renderHTML =  progress && progressName  ? (<div className="process-box">
+                                <div className="process-wrap">
+                                    <div className="process-content" style={width}></div>
+                                </div>
+                                <div className="process-name text-font-size-lg text-letter-lg text-sm">{progressName}</div>
+                            </div>) : (<span></span>)                        
+                            }
+                        return (renderHTML)
+                        }
+                        
+                    }
+                    
+                    
+                    /**封装技能展示模块*/ 
+                    class MyChunk extends React.Component {
+                        constructor (props) { 
+                            super(props) 
+                    
+                            //1.技能类型 2.英文解读
+                            //3.技能数组 
+                            //4.技能补充介绍
+                            //5.内容介绍 intros: vdom 类型
+                            
+                    
+                            const  {title,eng,skills,intros,desc} = props 
+                            this.state = {
+                                title,
+                                eng,
+                                skills,
+                                intros,
+                                desc
+                    
+                            }
+                        } 
+                    
+                    
+                    
+                        render() {
+                        const {title,eng,skills,intros,desc} = this.state 
+                        return ( <div className="skills">
+                                <h3 className="text-red text-letter-xs text-dark-blue">{title} <span className="text-red text-letter-lg text-smer">{eng}</span> </h3>
+                                <div className="space-sm"></div>
+                                <div className="skill-boxs">
+                                    <MyProgress  mySkills ={skills} />
+                                </div> 
+                                {intros? intros:''}
+                                <p className="text-red text-font-size-lg text-smer">{desc}</p>
+                            </div> )
+                        }
+                    }
+                    
+                    
+                    const mySkills =  [
+                        {
+                        progress:0.9,
+                        name:'Javascript'
+                        },
+                        {
+                        progress:0.8,
+                        name:'Spring'
+                        },
+                        {
+                        progress:0.7,
+                        name:'MyBatis'
+                        },
+                    ]
+                    
+                    
+                    
+                    
+                    const myLanSkills = [
+                        {
+                            progress:0.9,
+                            name:'英语'
+                        },
+                        {
+                            progress:0.8,
+                            name:'西班牙语'
+                        }
+                    ]
+                    
+                    
+                    /**奖项*/
+                    const gold = (
+                        <div>
+                            <p className="text-blue text-font-size-lg text-smer">lOl 2019  <span className="text-red">Gold </span></p> 
+                            <p className="text-blue text-font-size-lg text-smer"> AP Computer Science A  <span className="text-red">5 </span></p>
+                        </div>
+                    ) 
+                    
+                    
+                    /**兴趣爱好*/ 
+                    const hobbies = (
+                        <ul className="hobbies">
+                            <li>摄影</li>
+                            <li>绘画</li>
+                            <li>篮球</li>
+                            <li>音乐</li>
+                        </ul>
+                    )
+                    
+                    ReactDOM.render(<MyChunk  title ={'专 业 技 能 '} eng = {'SKILLS'} skills = {mySkills} desc = {'熟悉数据库原理和常用性能优化技术，已及NoSQL,Queue的原理，使用场景及限制'}  />,document.querySelector('.skill-pro'))
+                    ReactDOM.render(<MyChunk  title ={'语 言 技 能 '} eng = {'LANGUAGE'} skills = {myLanSkills} desc = {'全国计算机等级二级'}  />,document.querySelector('.skill-lan'))
+                    ReactDOM.render(<MyChunk  title ={'奖 项 荣 誉 '} eng = {'AWARDS'}  intros = {gold}   />,document.querySelector('.skill-awards'))    
+                    ReactDOM.render(<MyChunk  title ={'兴 趣 爱 好 '} eng = {'HOBBIES'}  intros = {hobbies}   />,document.querySelector('.skill-hobbies'))    
+                    
+    </script>
+
+
+    <!-- 引入api接口  --> 
+    <script src="./src/js/index.js" type="module"></script>
+
+   <!-- 与后端的交互，留言评论 --> 
+   <script type="text/babel">  
+
+        // button点击 -> 发送请求 ->获取数据 ->重新渲染dom 
+        async function renderComment() { 
+            console.log(`请求数据...`)
+                let data =  await getCommentList()  
+
+                const commentList = data.map(comment=>
+                            <div className="comment" key={comment.name}>
+                                <div className="name">{comment.name}</div>
+                                <div className="msg">{comment.msg}</div> 
+                                <div className="time">{comment.time}</div>
+                            </div>
+                )
+                const element = (
+                        <div>
+                            <h4>评论列表: 
+                                <p> <button onClick = {renderComment}>刷新</button> </p>
+                            </h4>
+                            
+                            {commentList}
+                        </div>
+                )
+                ReactDOM.render(element,document.querySelector('.comment-wrap'))
+
+            }
+
+        
+            renderComment()
+
+
+   </script>
+    
+</body>
+</html>

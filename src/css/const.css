@@ -1,0 +1,89 @@
+/* 对于简历中的红色字体 */
+.text-red {
+    color:	#F08080;
+    
+}
+
+
+.text-grey {
+    color: #A9A9A9;
+
+}
+
+.text-white {
+    color: #fff;
+}
+
+
+.text-blue {
+    color: #191970;
+}
+
+/* 深蓝色的字体 */
+.text-dark-blue {
+   color: #191970;
+   font-weight: bolder;  
+   letter-spacing: 1px;
+}
+
+/* 字体大小 */
+.text-left { 
+    text-align: left;
+}
+
+.text-right {
+    text-align:  right; 
+}
+
+
+.text-xs { 
+    font-size: large;
+}
+
+.text-lg {
+    font-size: larger;
+
+}
+
+
+.text-sm {
+    font-size: medium;
+
+}
+
+.text-smer {
+    font-size: smaller;
+}
+
+
+/* 字体间距 */ 
+
+
+.text-letter-xs {
+    letter-spacing:  3px;
+}
+
+
+.text-letter-lg {
+    letter-spacing: 2px;
+}
+
+
+
+.text-letter-sm {
+    letter-spacing: 1px;
+}
+
+/* 字体粗细 */ 
+.text-font-size-xs {
+   font-weight: bolder;
+}
+
+
+.text-font-size-lg {
+  font-weight: bold;
+}
+
+.text-font-size-sm {
+    font-weight: lighter;
+}
